@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/elytra"
+    },
+    "overrides": [
+        {"predicate": {"broken": 1},"model": "item/broken_elytra"},
+        {"predicate": {"custom_model_data": 76941},"model": "mni/netherite_elytra"},
+        {"predicate": {"custom_model_data": 76941, "broken": 1},"model": "mni/broken_netherite_elytra"}
+    ]
+}
