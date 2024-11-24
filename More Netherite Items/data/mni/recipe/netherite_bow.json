@@ -15,7 +15,11 @@
       "minecraft:lore": [
         "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
       ],
-      "minecraft:custom_model_data": 76943
+      "minecraft:custom_model_data": {
+        "strings": [
+          "netherite_bow"
+        ]
+      }
     }
   }
 }
