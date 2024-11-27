@@ -14,12 +14,7 @@
       "minecraft:item_name": "[{\"text\":\"Green Netherite Shulker Box\"}]",
       "minecraft:lore": [
         "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
-      ],
-      "minecraft:custom_model_data": {
-        "strings": [
-          "green_netherite_shulker_box"
-        ]
-      }
+      ]
     }
   }
 }
