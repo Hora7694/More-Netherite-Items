@@ -11,9 +11,19 @@
         "types": "#minecraft:is_fire"
       },
       "minecraft:rarity": "epic",
-      "minecraft:item_name": "[{\"text\":\"Black Netherite Shulker Box\"}]",
+      "minecraft:item_name": {
+        "translate": "mni.item.black_shulker_box.name",
+        "fallback": "Netherite Black Shulker Box",
+        "color": "light_purple",
+        "italic": false
+      },
       "minecraft:lore": [
-        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+        {
+          "translate": "mni.item.black_shulker_box.lore",
+          "fallback": "Fire Resistance",
+          "color":"blue",
+          "italic":false
+        }
       ]
     }
   }

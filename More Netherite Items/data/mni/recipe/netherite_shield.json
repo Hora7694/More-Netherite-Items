@@ -11,9 +11,19 @@
         "types": "#minecraft:is_fire"
       },
       "minecraft:rarity": "epic",
-      "minecraft:item_name": "[{\"text\":\"Netherite Shield\"}]",
+      "minecraft:item_name": {
+        "translate": "mni.item.shield.name",
+        "fallback": "Netherite Shield",
+        "color": "light_purple",
+        "italic": false
+      },
       "minecraft:lore": [
-        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+        {
+          "translate": "mni.item.shield.lore",
+          "fallback": "Fire Resistance",
+          "color": "blue",
+          "italic": false
+        }
       ],
       "minecraft:custom_model_data": {
         "strings": [

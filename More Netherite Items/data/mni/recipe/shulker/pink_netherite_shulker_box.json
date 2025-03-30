@@ -11,15 +11,20 @@
         "types": "#minecraft:is_fire"
       },
       "minecraft:rarity": "epic",
-      "minecraft:item_name": "[{\"text\":\"Pink Netherite Shulker Box\"}]",
+      "minecraft:item_name": {
+        "translate": "mni.item.pink_shulker_box.name",
+        "fallback": "Netherite Pink Shulker Box",
+        "color": "light_purple",
+        "italic": false
+      },
       "minecraft:lore": [
-        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
-      ],
-      "minecraft:custom_model_data": {
-        "strings": [
-          "pink_netherite_shulker_box"
-        ]
-      }
+        {
+          "translate": "mni.item.pink_shulker_box.lore",
+          "fallback": "Fire Resistance",
+          "color":"blue",
+          "italic":false
+        }
+      ]
     }
   }
 }

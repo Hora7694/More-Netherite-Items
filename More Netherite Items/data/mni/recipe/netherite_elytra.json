@@ -11,9 +11,19 @@
         "types": "#minecraft:is_fire"
       },
       "minecraft:rarity": "epic",
-      "minecraft:item_name": "[{\"text\":\"Netherite Elytra\"}]",
+      "minecraft:item_name": {
+        "translate": "mni.item.elytra.name",
+        "fallback": "Netherite Elytra",
+        "color": "light_purple",
+        "italic": false
+      },
       "minecraft:lore": [
-        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+        {
+          "translate": "mni.item.elytra.lore",
+          "fallback": "Fire Resistance",
+          "color":"blue",
+          "italic":false
+        }
       ],
       "minecraft:custom_model_data": {
         "strings": [

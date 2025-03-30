@@ -11,9 +11,19 @@
         "types": "#minecraft:is_fire"
       },
       "minecraft:rarity": "epic",
-      "minecraft:item_name": "[{\"text\":\"Netherite Cross Bow\"}]",
+      "minecraft:item_name": {
+        "translate": "mni.item.crossbow.name",
+        "fallback": "Netherite Crossbow",
+        "color": "light_purple",
+        "italic": false
+      },
       "minecraft:lore": [
-        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+        {
+          "translate": "mni.item.crossbow.lore",
+          "fallback": "Fire Resistance",
+          "color":"blue",
+          "italic":false
+        }
       ],
       "minecraft:custom_model_data": {
         "strings": [

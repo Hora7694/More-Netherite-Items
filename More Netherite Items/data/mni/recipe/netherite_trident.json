@@ -11,9 +11,19 @@
         "types": "#minecraft:is_fire"
       },
       "minecraft:rarity": "epic",
-      "minecraft:item_name": "[{\"text\":\"Netherite Trident\"}]",
+      "minecraft:item_name": {
+        "translate": "mni.item.trident.name",
+        "fallback": "Netherite Trident",
+        "color": "light_purple",
+        "italic": false
+      },
       "minecraft:lore": [
-        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+        {
+          "translate": "mni.item.trident.lore",
+          "fallback": "Fire Resistance",
+          "color": "blue",
+          "italic": false
+        }
       ],
       "minecraft:custom_model_data": {
         "strings": [
