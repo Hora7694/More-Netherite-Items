@@ -1,0 +1,38 @@
+{
+  "pack": {
+    "pack_format": 41,
+    "description": "§ar1-3a71 §f| §dMC 1.21.X\n§6Made by Hora7694",
+    "supported_formats": {
+      "min_inclusive": 41,
+      "max_inclusive": 77
+    }
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "data-41",
+        "formats": 41
+      },
+      {
+        "directory": "data-48",
+        "formats": 48
+      },
+      {
+        "directory": "data-57",
+        "formats": 57
+      },
+      {
+        "directory": "data-61",
+        "formats": 61
+      },
+      {
+        "directory": "data-71",
+        "formats": 71
+      },
+      {
+        "directory": "data-77",
+        "formats": 77
+      }
+    ]
+  }
+}

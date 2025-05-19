@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:purple_shulker_box",
+  "addition": "#minecraft:netherite_tool_materials",
+  "result": {
+    "id": "minecraft:purple_shulker_box",
+    "count": 1,
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": "[{\"text\":\"Purple Netherite Shulker Box\"}]",
+      "minecraft:lore": [
+        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+      ]
+    }
+  }
+}

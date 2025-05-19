@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:elytra"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": "[{\"text\":\"Netherite Elytra\"}]",
+      "minecraft:lore": [
+        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+      ],
+      "minecraft:custom_model_data": 76941,
+      "minecraft:fire_resistant": {}
+    }
+  }
+}

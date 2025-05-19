@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "exn.adv.info.title.d41",
+      "fallback": "Expanded Netherite 41"
+    },
+    "description": {
+      "translate": "exn.adv.info.desc.d41",
+      "fallback": "§fMore items are now eligible for netherite upgrades"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "hora:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:orange_shulker_box",
+  "addition": "#minecraft:netherite_tool_materials",
+  "result": {
+    "id": "minecraft:orange_shulker_box",
+    "count": 1,
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": {
+        "translate": "mni.item.orange_shulker_box.name",
+        "fallback": "Netherite Orange Shulker Box",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "mni.item.orange_shulker_box.lore",
+          "fallback": "Fire Resistance",
+          "color":"blue",
+          "italic":false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "minecraft:crossbow",
+  "addition": "#minecraft:netherite_tool_materials",
+  "result": {
+    "id": "minecraft:crossbow",
+    "count": 1,
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      },
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": {
+        "translate": "mni.item.crossbow.name",
+        "fallback": "Netherite Crossbow",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "translate": "mni.item.crossbow.lore",
+          "fallback": "Fire Resistance",
+          "color":"blue",
+          "italic":false
+        }
+      ],
+      "minecraft:custom_model_data": {
+        "strings": [
+          "netherite_crossbow"
+        ]
+      }
+    }
+  }
+}

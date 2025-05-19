@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:blue_shulker_box"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:blue_shulker_box",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": "[{\"text\":\"Blue Netherite Shulker Box\"}]",
+      "minecraft:lore": [
+        "[{\"text\":\"Fire Resistance\",\"color\":\"blue\",\"italic\":false}]"
+      ],
+      "minecraft:custom_model_data": 76942,
+      "minecraft:fire_resistant": {}
+    }
+  }
+}
